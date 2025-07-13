@@ -53,7 +53,7 @@ In general, you are free to name your fields freely, but there are some limitati
 To be on the safe side with your field names, you have two options:
 
 1. Always prefix your field names, for example with your initials: `xy_myfieldName`.
-2. Render your field names in your templates via the content object, i.e. instead of the shortcut `$page->myFieldName()` use `$page->content()->get('myFieldName'), compare (link: #accessing-fields-in-templates text: Accessing fields in templates) below.
+2. Render your field names in your templates via the content object, i.e. instead of the shortcut `$page->myFieldName()` use `$page->content()->get('myFieldName')`, compare (link: #accessing-fields-in-templates text: Accessing fields in templates) below.
 
 For details see also  (link: docs/guide/templates/basics text: the template docs).
 
